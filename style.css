@@ -1,0 +1,114 @@
+*{
+    /* background-color: #212121; */
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: large;
+    color: aliceblue;
+  
+    
+}
+body{
+    height: 120vh;
+    background-image: url("https://w.forfun.com/fetch/92/92b2eece16d640dc12f597ff293b5a83.jpeg?download=anime-one_piece-monkey_d_luffy-277979.jpeg");
+}
+header{
+    /* border: 2px solid white; */
+    /* color: white; */
+    /* margin-top: 20px; */
+    padding: 20px;
+    position: sticky;
+    top: 0;
+
+}
+.logo{
+/* border: 2px red solid; */
+display: inline-block;
+width: 250px;
+color: rgb(254, 254, 56);
+font-size: x-large;
+font-weight: 600;
+cursor: pointer;
+
+/* height: 50px; */
+/* padding: auto; */
+}
+.nav-bar{
+    /* border: 2px green solid; */
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    height: 50px;
+    /* padding: 5px; */
+
+}
+.nav-bar>a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+}
+.nav-bar>a:hover{
+    color: rgb(243, 240, 26);
+}
+#Homie{
+    color: rgb(243, 240, 26);
+}
+
+/* .content{
+border: 2px solid red;
+width: 600px;
+height: 300px;
+padding: 10px;
+} */
+
+#heading:hover{
+    color: rgb(255, 93, 43);
+
+}
+#wrap{
+    top: 60px;
+    position: sticky;
+}
+#heading{
+    /* border: 2px solid green; */
+    width: 600px;
+    color: rgb(232, 232, 28);
+    font-size: 100px;
+    transition: 0.5s;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    cursor: pointer;
+}
+#heading+h3{
+    /* border: 2px blue solid; */
+    position: relative;
+    margin-top: 70px;
+    left: 70px;
+    font-size: 40px;
+    color:rgb(255, 255, 255) ;
+}
+#heading+h3+p{
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    left: 70px;
+    /* font-size: 40px; */
+    color:rgb(255, 255, 255) ;
+}
+#footerr:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+#footerr{
+    position: fixed;
+    bottom: 0;
+
+}
